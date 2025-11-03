@@ -1,0 +1,10 @@
+Flask
+openai
+google-generativeai
+pydantic
+gtts
+ffmpeg-python
+python-pptx
+dotenv
+
+
