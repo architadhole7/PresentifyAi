@@ -6,5 +6,7 @@ gtts
 ffmpeg-python
 python-pptx
 dotenv
+gunicorn
+
 
 
