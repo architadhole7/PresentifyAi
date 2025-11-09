@@ -60,4 +60,5 @@ def generate_presentation():
 # run prgm
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
+
