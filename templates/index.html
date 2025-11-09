@@ -1,1 +1,16 @@
-
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Presenter AI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>Presenter AI Prototype</h1>
+    <form action="{{ url_for('generate_presentation') }}" method="POST">
+      <textarea name="input_text" placeholder="Paste your research text here..." rows="8" cols="60"></textarea><br>
+      <button type="submit">Generate Presentation</button>
+    </form>
+  </div>
+</body>
+</html>
